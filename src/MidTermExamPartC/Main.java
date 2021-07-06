@@ -19,14 +19,24 @@ public class Main {
         // TODO code application logic here
         Scanner input = new Scanner(System.in);
         String uName = "";
+        String accountN = "";
         
         System.out.println("Hello please enter a user name for you");
         uName = input.next();
         
-        System.out.println(uName);
+        //System.out.println(uName);
         System.out.println("________________________________________");
         
+        System.out.println("Please enter an account number for you");
+        accountN = input.next();
         
+        System.out.println(accountN);
+        System.out.println("________________________________________");
+        
+        System.out.println("Please choose an account "
+                + "type for you. Enter 1 for 'Checking', "
+                + "2 for 'CC', 3 for 'StudentLoan' and 4 "
+                + "for 'LanzStudentAccount' ");
     }
     
 }
