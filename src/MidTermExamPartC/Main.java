@@ -18,6 +18,15 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner input = new Scanner(System.in);
+        String uName = "";
+        
+        System.out.println("Hello please enter a user name for you");
+        uName = input.next();
+        
+        System.out.println(uName);
+        System.out.println("________________________________________");
+        
+        
     }
     
 }
