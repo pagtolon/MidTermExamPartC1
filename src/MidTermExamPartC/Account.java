@@ -15,7 +15,7 @@ public class Account {
     private String userName;//the userID
     private String AccountNum; // account number
     private String AccountType;// the user's account type
-    public final static String [] account_types={"Checking","CC","StudentLoan"};
+    public final static String [] account_types={"Checking","CC","StudentLoan", "LanzStudentAccount"};
 
     /**
      * A constructor that takes in the userName and the Account type
